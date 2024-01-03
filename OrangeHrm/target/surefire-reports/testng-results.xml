@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-02T12:13:22 IST" name="Orange" finished-at="2024-01-02T12:13:39 IST" duration-ms="17089">
+    <groups>
+    </groups>
+    <test started-at="2024-01-02T12:13:22 IST" name="Orange" finished-at="2024-01-02T12:13:39 IST" duration-ms="17089">
+      <class name="test.cases.SaucedemoValidation">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.cases.SaucedemoValidation@51dcb805]" started-at="2024-01-02T12:13:22 IST" name="setUp" finished-at="2024-01-02T12:13:28 IST" duration-ms="5978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="user(java.lang.String)[pri:1, instance:test.cases.SaucedemoValidation@51dcb805]" started-at="2024-01-02T12:13:28 IST" name="user" finished-at="2024-01-02T12:13:28 IST" duration-ms="238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user -->
+        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:test.cases.SaucedemoValidation@51dcb805]" started-at="2024-01-02T12:13:28 IST" name="screenshotAndDeleteCookies" finished-at="2024-01-02T12:13:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=user status=SUCCESS method=SaucedemoValidation.user(java.lang.String)[pri:1, instance:test.cases.SaucedemoValidation@51dcb805] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotAndDeleteCookies -->
+        <test-method signature="password(java.lang.String)[pri:2, instance:test.cases.SaucedemoValidation@51dcb805]" started-at="2024-01-02T12:13:28 IST" name="password" finished-at="2024-01-02T12:13:28 IST" duration-ms="211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:test.cases.SaucedemoValidation@51dcb805]" started-at="2024-01-02T12:13:28 IST" name="screenshotAndDeleteCookies" finished-at="2024-01-02T12:13:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=password status=SUCCESS method=SaucedemoValidation.password(java.lang.String)[pri:2, instance:test.cases.SaucedemoValidation@51dcb805] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotAndDeleteCookies -->
+        <test-method signature="lgnBtn()[pri:3, instance:test.cases.SaucedemoValidation@51dcb805]" started-at="2024-01-02T12:13:28 IST" name="lgnBtn" finished-at="2024-01-02T12:13:28 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lgnBtn -->
+        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:test.cases.SaucedemoValidation@51dcb805]" started-at="2024-01-02T12:13:28 IST" name="screenshotAndDeleteCookies" finished-at="2024-01-02T12:13:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=lgnBtn status=SUCCESS method=SaucedemoValidation.lgnBtn()[pri:3, instance:test.cases.SaucedemoValidation@51dcb805] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotAndDeleteCookies -->
+        <test-method signature="testDropdownVisibility()[pri:4, instance:test.cases.SaucedemoValidation@51dcb805]" started-at="2024-01-02T12:13:28 IST" name="testDropdownVisibility" finished-at="2024-01-02T12:13:38 IST" duration-ms="10156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDropdownVisibility -->
+        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:test.cases.SaucedemoValidation@51dcb805]" started-at="2024-01-02T12:13:38 IST" name="screenshotAndDeleteCookies" finished-at="2024-01-02T12:13:38 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDropdownVisibility status=SUCCESS method=SaucedemoValidation.testDropdownVisibility()[pri:4, instance:test.cases.SaucedemoValidation@51dcb805] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotAndDeleteCookies -->
+        <test-method signature="selectedTheDropDownValue()[pri:5, instance:test.cases.SaucedemoValidation@51dcb805]" started-at="2024-01-02T12:13:38 IST" name="selectedTheDropDownValue" finished-at="2024-01-02T12:13:39 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectedTheDropDownValue -->
+        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:test.cases.SaucedemoValidation@51dcb805]" started-at="2024-01-02T12:13:39 IST" name="screenshotAndDeleteCookies" finished-at="2024-01-02T12:13:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectedTheDropDownValue status=SUCCESS method=SaucedemoValidation.selectedTheDropDownValue()[pri:5, instance:test.cases.SaucedemoValidation@51dcb805] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotAndDeleteCookies -->
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:test.cases.SaucedemoValidation@51dcb805]" started-at="2024-01-02T12:13:39 IST" name="suiteTearDown" finished-at="2024-01-02T12:13:39 IST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- test.cases.SaucedemoValidation -->
+    </test> <!-- Orange -->
+  </suite> <!-- Orange -->
+</testng-results>
