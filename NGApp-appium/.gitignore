@@ -1,0 +1,6 @@
+result*.txt
+.DS_Store
+../.DS_Store
+logs/
+app-logs/
+test-recordings/
